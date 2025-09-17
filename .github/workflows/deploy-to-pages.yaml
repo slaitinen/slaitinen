@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload site directory
-          path: 'slaitinen'
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
